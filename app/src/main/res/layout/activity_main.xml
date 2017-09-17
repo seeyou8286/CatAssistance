@@ -6,35 +6,175 @@
     android:layout_height="match_parent"
     tools:context="com.assistance.cat.catassistance.MainActivity">
 
-    <Button
-        android:id="@+id/voice_button"
-        android:layout_width="88dp"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="117dp" />
-
     <TableLayout
-        android:layout_width="97dp"
-        android:layout_height="495dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:id="@+id/image_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:shrinkColumns="0,1,2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
+            android:id="@+id/row1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao01_small"
+                android:fontFamily="casual"
+                android:text="高兴" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao02_small"
+                android:fontFamily="casual"
+                android:text="迷惑"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao03_small"
+                android:fontFamily="casual"
+                android:text="拉粑粑"
+                android:textAlignment="center" />
+
+            <Button
+                android:layout_margin="10dp"
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao04_small"
+                android:fontFamily="casual"
+                android:text="求爱"
+                android:textAlignment="center" />
+
+        </TableRow>
 
         <TableRow
+            android:paddingBottom="20dp"
+            android:id="@+id/row2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao06_small"
+                android:fontFamily="casual"
+                android:text="兴奋" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao07_small"
+                android:fontFamily="casual"
+                android:text="无聊"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao08_small"
+                android:fontFamily="casual"
+                android:text="开心"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao09_small"
+                android:fontFamily="casual"
+                android:text="抓老鼠"
+                android:textAlignment="center" />
+
+        </TableRow>
 
         <TableRow
+            android:id="@+id/row3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/button9"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao10_small"
+                android:fontFamily="casual"
+                android:text="困惑" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao15_small"
+                android:fontFamily="casual"
+                android:text="生气"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao13_small"
+                android:fontFamily="casual"
+                android:text="可爱"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/dahuangmao19_small"
+                android:fontFamily="casual"
+                android:text="找东西"
+                android:textAlignment="center" />
+
+        </TableRow>
+
     </TableLayout>
+
 
 </android.support.constraint.ConstraintLayout>

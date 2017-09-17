@@ -1,4 +1,4 @@
-package com.assistance.cat.catassistance;
+package com.jiufen.cat.assistance;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

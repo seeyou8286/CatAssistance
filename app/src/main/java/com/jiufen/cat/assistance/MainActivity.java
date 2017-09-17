@@ -1,4 +1,4 @@
-package com.assistance.cat.catassistance;
+package com.jiufen.cat.assistance;
 
 import android.media.AudioManager;
 import android.media.SoundPool;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.assistance.cat.catassistance.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btnPlay1;
